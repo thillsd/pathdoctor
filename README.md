@@ -3,7 +3,7 @@
 Finds copies of Python inside and outside of the Windows Path.
 
 ## Quick Run
-If you can run Python from a cmd Window, try copy-pasting this. Otherwise, download an exe from releases.
+If you can run Python from a cmd window, try copy-pasting this. Otherwise, download an exe from releases.
 
 ```
 python -c "import urllib.request; exec(urllib.request.urlopen(r'https://raw.githubusercontent.com/thillsd/pathdoctor/main/pathdoctor/pathdoctor.py').read())"
@@ -60,4 +60,3 @@ PythonInstallation(directory='C:\Users\t\miniconda3',
                    pip_in_path=False,
                    is_default_interpreter_in_path=False,
                    is_the_currently_running_interpreter=False)```
-
