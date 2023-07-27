@@ -1,5 +1,5 @@
 # Path Doctor
-
+![usage gif](https://raw.githubusercontent.com/thillsd/pathdoctor/main/images/usage.gif)
 Finds copies of Python inside and outside of the Windows Path.
 
 Written to help troubleshoot new user problems on [Python Discord](https://pythondiscord.com).
