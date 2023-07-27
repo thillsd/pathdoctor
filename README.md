@@ -1,4 +1,4 @@
-# PythonPathDoctor
+# PathDoctor
 
 Finds copies of Python inside and outside of the Windows Path.
 
