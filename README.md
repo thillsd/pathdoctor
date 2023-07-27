@@ -2,6 +2,8 @@
 
 Finds copies of Python inside and outside of the Windows Path.
 
+Written to help troubleshoot new user problems on [Python Discord](https://pythondiscord.com).
+
 ## Quick Run
 If you can run Python from a cmd window, try copy-pasting this. Otherwise, download an exe from [releases](https://github.com/thillsd/pathdoctor/releases).
 
