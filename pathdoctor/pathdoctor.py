@@ -46,6 +46,11 @@ def main() -> None:
     installations = detect_python_installations()
     write_report(installations)
 
+    user_input = input("Edit Windows Path [y/N]? ")
+    if user_input in ("y", "Y"):
+        # raises below vscode with no icon in taskbar :)
+        os.system("rundll32 sysdm.cpl,EditEnvironmentVariables")
+
 
 def detect_python_installations() -> PythonInstallations:
     path = [Path(d) for d in t.cast(str, os.getenv("path")).split(";")]
